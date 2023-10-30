@@ -124,3 +124,26 @@ nav a:hover::after {
 
 }
 }
+
+@media (max-width: 250px) {
+  .navbar {
+    column-gap: 20px;
+  }
+
+  .navbar a {
+    font-size: 15px;
+  }
+
+   nav a::after {
+    display: none !important;
+  }
+
+  nav a:hover::before {
+  display: none !important;
+}
+
+nav a:hover::after {
+    display: none !important;
+
+}
+}
