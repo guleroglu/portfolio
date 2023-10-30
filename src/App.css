@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  transition: 1s;
+}
+
+body.dark {
+    background-color: #242424;
+}
+
+body.light {
+  background-color: #f9fafb;
+}
+
+a {
+  font-weight: 600;
+}
+
+li {
+  list-style: none;
+}
+
+.page-title {
+  font-size: 3.5rem;
+  color: #4ADE80;
+  font-weight: 900;
+  text-align: center;
+}
+
+
+@media (max-width: 530px) {
+  .page-title {
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,112 @@
+.home-wrapper {
+  max-width: 768px;
+  margin: auto;
+  text-align: center;
+}
+
+.home-intro {
+  font-size: 1.5rem;
+  color: #9ca3af;
+}
+
+.home-intro.light {
+  color: #000;
+}
+
+.home-title {
+  font-family: "Dancing Script", cursive;
+  font-size: 6rem;
+  color: #f9fafb;
+}
+
+.home-title.light {
+  font-family: "Dancing Script", cursive;
+  font-size: 6rem;
+  color: #000;
+}
+
+.home-info-top {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  column-gap: 5px;
+}
+
+.htmltag {
+  color: #9ca3af;
+  font-weight: bold;
+}
+
+.htmltag.light {
+  color: #000;
+}
+
+.home-info-subtitle {
+  color: #f9fafb;
+  transition: 0.2s ease all;
+}
+
+.home-info-subtitle.light {
+  color: #000;
+  transition: 0.2s ease all;
+}
+
+.home-bottom {
+  margin-top: 30px;
+}
+
+.home-info-bottom {
+  color: #f9fafb;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: justify;
+}
+
+.home-info-bottom.light {
+  color: #000;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .home-title {
+    font-size: 5rem;
+  }
+
+  .home-info-subtitle {
+    font-size: 24px;
+  }
+
+  .home-bottom {
+    padding: 20px;
+  }
+
+  .home-info-bottom {
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 530px) {
+  .home-wrapper {
+    margin-top: 20px;
+  }
+  .home-title {
+    font-size: 4rem;
+  }
+
+  .home-info-subtitle {
+    font-size: 20px;
+  }
+
+  .home-bottom {
+    margin-top: 20px;
+  }
+  .home-info-bottom {
+    font-size: 14px;
+    line-height: 25px;
+  }
+}
