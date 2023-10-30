@@ -63,6 +63,21 @@ nav a:hover::after {
   transform: scaleX(1);
 }
 
+@media (max-width: 768px) {
+  nav a::after {
+    display: none !important;
+  }
+
+  nav a:hover::before {
+  display: none !important;
+}
+
+nav a:hover::after {
+    display: none !important;
+
+}
+}
+
 @media (max-width: 530px) {
   .navbar {
     column-gap: 20px;
