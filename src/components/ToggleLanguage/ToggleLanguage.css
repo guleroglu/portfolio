@@ -27,6 +27,7 @@
 
 @media (max-width: 530px) {
   .languageSelect {
+    margin-right: 15px;
     padding: 5px;
   }
 
