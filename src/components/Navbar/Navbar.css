@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin:  auto;
+  margin: auto;
   column-gap: 40px;
 }
 
@@ -70,81 +70,76 @@ nav a:hover::after {
   }
 
   nav a:hover::before {
-  display: none !important;
-}
-
-nav a:hover::after {
     display: none !important;
+  }
 
-}
+  nav a:hover::after {
+    display: none !important;
+  }
 }
 
 @media (max-width: 530px) {
   .navbar {
-    column-gap: 10px;
+    column-gap: 13px;
   }
 
   .navbar a {
     font-size: 14px;
   }
 
-   nav a::after {
+  nav a::after {
     display: none !important;
   }
 
   nav a:hover::before {
-  display: none !important;
-}
-
-nav a:hover::after {
     display: none !important;
+  }
 
+  nav a:hover::after {
+    display: none !important;
+  }
 }
-}
-
 
 @media (max-width: 300px) {
   .navbar {
-    column-gap: 10px;
+    column-gap: 13px;
   }
 
   .navbar a {
     font-size: 13px;
   }
 
-   nav a::after {
+  nav a::after {
     display: none !important;
   }
 
   nav a:hover::before {
-  display: none !important;
-}
-
-nav a:hover::after {
     display: none !important;
+  }
 
-}
+  nav a:hover::after {
+    display: none !important;
+  }
 }
 
 @media (max-width: 250px) {
   .navbar {
-    column-gap: 10px;
+    column-gap: 13px;
   }
 
   .navbar a {
     font-size: 13px;
   }
 
-   nav a::after {
+  nav a::after {
     display: none !important;
   }
 
   nav a:hover::before {
-  display: none !important;
-}
-
-nav a:hover::after {
     display: none !important;
+  }
 
-}
+  nav a:hover::after {
+    display: none !important;
+  }
 }
