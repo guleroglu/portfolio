@@ -80,7 +80,7 @@ nav a:hover::after {
 
 @media (max-width: 530px) {
   .navbar {
-    column-gap: 13px;
+    column-gap: 14px;
   }
 
   .navbar a {
@@ -102,7 +102,7 @@ nav a:hover::after {
 
 @media (max-width: 300px) {
   .navbar {
-    column-gap: 13px;
+    column-gap: 14px;
   }
 
   .navbar a {
@@ -124,7 +124,7 @@ nav a:hover::after {
 
 @media (max-width: 250px) {
   .navbar {
-    column-gap: 13px;
+    column-gap: 14px;
   }
 
   .navbar a {
