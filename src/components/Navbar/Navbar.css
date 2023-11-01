@@ -2,7 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  column-gap: 30px;
+  margin:  auto;
+  column-gap: 40px;
 }
 
 .navbar a {
@@ -80,11 +81,11 @@ nav a:hover::after {
 
 @media (max-width: 530px) {
   .navbar {
-    column-gap: 20px;
+    column-gap: 10px;
   }
 
   .navbar a {
-    font-size: 15px;
+    font-size: 14px;
   }
 
    nav a::after {
@@ -104,11 +105,11 @@ nav a:hover::after {
 
 @media (max-width: 300px) {
   .navbar {
-    column-gap: 20px;
+    column-gap: 10px;
   }
 
   .navbar a {
-    font-size: 15px;
+    font-size: 13px;
   }
 
    nav a::after {
@@ -127,11 +128,11 @@ nav a:hover::after {
 
 @media (max-width: 250px) {
   .navbar {
-    column-gap: 20px;
+    column-gap: 10px;
   }
 
   .navbar a {
-    font-size: 15px;
+    font-size: 13px;
   }
 
    nav a::after {
