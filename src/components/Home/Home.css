@@ -77,10 +77,10 @@
   }
 
   .home-title.light {
-  font-family: "Dancing Script", cursive;
-  font-size: 5rem;
-  color: #000;
-}
+    font-family: "Dancing Script", cursive;
+    font-size: 5rem;
+    color: #000;
+  }
 
   .home-info-subtitle {
     font-size: 24px;
@@ -94,6 +94,12 @@
     font-size: 16px;
     line-height: 25px;
   }
+  .home-info-bottom.light {
+    color: #000;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: justify;
+  }
 }
 
 @media (max-width: 530px) {
@@ -105,10 +111,10 @@
   }
 
   .home-title.light {
-  font-family: "Dancing Script", cursive;
-  font-size: 4rem;
-  color: #000;
-}
+    font-family: "Dancing Script", cursive;
+    font-size: 4rem;
+    color: #000;
+  }
 
   .home-info-subtitle {
     font-size: 20px;
@@ -120,5 +126,12 @@
   .home-info-bottom {
     font-size: 14px;
     line-height: 25px;
+  }
+
+  .home-info-bottom.light {
+    color: #000;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: justify;
   }
 }
