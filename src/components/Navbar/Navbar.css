@@ -3,7 +3,8 @@
   align-items: center;
   justify-content: center;
   margin: auto;
-  column-gap: 40px;
+  column-gap: 50px;
+
 }
 
 .navbar a {
@@ -11,6 +12,8 @@
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   transition: 0.2s ease-out color;
+  width: 50px;
+  text-align: center;
 }
 
 .navbar a.light {
