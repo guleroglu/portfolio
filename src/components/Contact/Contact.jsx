@@ -11,10 +11,14 @@ import { useContext } from "react";
 import { GlobalContext } from "../../Context/GlobalContext";
 
 const Contact = () => {
-  const { isToggle } = useContext(GlobalContext);
+  const { isToggle, selectedOption } = useContext(GlobalContext);
   return (
     <div className="contact-container">
-      <h1 className="page-title">contact</h1>
+      {selectedOption === false ? (
+        <h1 className="page-title">contact</h1>
+      ) : (
+        <h1 className="page-title">iletişim</h1>
+      )}
       <div className="contact-wrapper">
         <div className="communication-wrapper">
           <a
