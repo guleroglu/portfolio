@@ -23,7 +23,7 @@
 @media (max-width: 530px) {
   .header-wrapper {
     justify-content: center;
-    column-gap: 20px;
+    column-gap: 15px;
     margin: auto;
   }
 
