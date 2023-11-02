@@ -38,13 +38,9 @@ const Home = () => {
       </div>
       <div className="home-bottom">
         <p className={`home-info-bottom ${!isToggle ? "light" : ""}`}>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium
-          quibusdam nesciunt, recusandae dolore nostrum hic suscipit, aliquid
-          quidem quia libero esse dicta facere ad porro consequuntur dolor
-          voluptate ab tempora. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Aut minima distinctio expedita corrupti, temporibus
-          aspernatur qui numquam eos? Ipsum veniam omnis voluptatem recusandae
-          nemo neque blanditiis odit nisi nulla tenetur.
+          I'm working on becoming an experienced developer in the back-end
+          world. I'm open to learning and improving myself in this profession. I
+          enjoy learning new things and constantly developing myself.
         </p>
         <ContactButton />
       </div>
