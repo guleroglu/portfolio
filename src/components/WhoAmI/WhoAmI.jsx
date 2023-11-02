@@ -3,10 +3,15 @@ import "./WhoAmI.css";
 import { GlobalContext } from "../../Context/GlobalContext";
 
 const WhoAmI = () => {
-  const { isToggle } = useContext(GlobalContext);
+  const { isToggle, selectedOption } = useContext(GlobalContext);
   return (
     <div className="whoami-wrapper">
-      <h1 className="page-title">whoami</h1>
+      {selectedOption === false ? (
+        <h1 className="page-title">whoami</h1>
+      ) : (
+        <h1 className="page-title">hakkımda</h1>
+      )}
+
       <p className={`whoami-text ${!isToggle ? "light" : ""}`}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
         cupiditate vel distinctio, ab impedit tempore placeat vitae recusandae
@@ -17,9 +22,16 @@ const WhoAmI = () => {
         neque nobis quod optio saepe.
       </p>
       <div className="whoami-hobbies">
-        <h3 className="whoami-subtitle">
-          What I like to do and my hobbies are:
-        </h3>
+        {selectedOption === false ? (
+          <h3 className="whoami-subtitle">
+            What I like to do and my hobbies are:
+          </h3>
+        ) : (
+          <h3 className="whoami-subtitle">
+            Neleri yapmaktan hoşlanırım ve hobilerim şunlardır:
+          </h3>
+        )}
+
         <p className={`whoami-text ${!isToggle ? "light" : ""}`}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
           aliquid vero tempora necessitatibus numquam molestiae laborum atque
