@@ -9,12 +9,11 @@ const ToggleLanguage = () => {
     setSelectedOption(!selectedOption);
   };
 
-  
   return (
     <div>
       <select className="languageSelect" onChange={handleLanguage}>
-        <option value="tr">tr</option>
-        <option value="en">en</option>
+        <option value="tr">🇹🇷</option>
+        <option value="en">EN</option>
       </select>
     </div>
   );
