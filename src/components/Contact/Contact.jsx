@@ -1,8 +1,8 @@
 import "./Contact.css";
 import { FaEnvelope } from "react-icons/fa";
-import { FiPhone } from "react-icons/fi";
+
 import { FaMapMarkerAlt } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa";
+
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -28,7 +28,6 @@ const Contact = () => {
             <FaEnvelope size={20} color={!isToggle ? "black" : "white"} />
             icenomerfaruk@gmail.com
           </a>
-          
           <a
             className={`communication-item ${!isToggle ? "light" : ""}`}
             href="https://www.google.com/maps/place/Bursa/@40.2212104,28.7026453,10z"
@@ -38,7 +37,6 @@ const Contact = () => {
             <FaMapMarkerAlt size={20} color={!isToggle ? "black" : "white"} />
             Bursa, Turkey
           </a>
-        
         </div>
         <ul className="social-media-wrapper">
           <li>
