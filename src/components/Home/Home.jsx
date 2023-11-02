@@ -11,9 +11,15 @@ const Home = () => {
   return (
     <div className="home-wrapper">
       <div className="home-top">
-        <span className={`home-intro ${!isToggle ? "light" : ""}`}>
-          Hi 👋, I am
-        </span>
+        {selectedOption === false ? (
+          <span className={`home-intro ${!isToggle ? "light" : ""}`}>
+            Hi 👋, I am
+          </span>
+        ) : (
+          <span className={`home-intro ${!isToggle ? "light" : ""}`}>
+            Selam 👋, Ben
+          </span>
+        )}
         <h1 className={`home-title ${!isToggle ? "light" : ""}`}>Omer Faruk</h1>
         <div className="home-info-top">
           <span
