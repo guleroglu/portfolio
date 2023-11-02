@@ -22,7 +22,7 @@ const Navbar = () => {
         onMouseLeave={() => setIsHovered(false)}
         className={!isToggle ? "light" : ""}
       >
-        whoami
+        {selectedOption === false ? "whoami" : "hakkımda"}
       </NavLink>
       <NavLink
         to="/skills"
@@ -30,7 +30,7 @@ const Navbar = () => {
         onMouseLeave={() => setIsHovered(false)}
         className={!isToggle ? "light" : ""}
       >
-        skills
+        {selectedOption === false ? "skills" : "yetenekler"}
       </NavLink>
       <NavLink
         to="/contact"
@@ -38,7 +38,7 @@ const Navbar = () => {
         onMouseLeave={() => setIsHovered(false)}
         className={!isToggle ? "light" : ""}
       >
-        contact
+        {selectedOption === false ? "contact" : "iletişim"}
       </NavLink>
     </nav>
   );
