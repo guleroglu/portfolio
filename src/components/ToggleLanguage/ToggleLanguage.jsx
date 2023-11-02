@@ -12,8 +12,8 @@ const ToggleLanguage = () => {
   return (
     <div>
       <select className="languageSelect" onChange={handleLanguage}>
-        <option value="tr">🇹🇷</option>
-        <option value="en">EN</option>
+        <option value="tr">tr</option>
+        <option value="en">en</option>
       </select>
     </div>
   );
