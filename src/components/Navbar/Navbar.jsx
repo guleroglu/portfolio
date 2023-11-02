@@ -4,7 +4,7 @@ import { useContext } from "react";
 import { GlobalContext } from "../../Context/GlobalContext";
 
 const Navbar = () => {
-  const { setIsHovered, isToggle } = useContext(GlobalContext);
+  const { setIsHovered, isToggle, selectedOption } = useContext(GlobalContext);
 
   return (
     <nav className="navbar">
@@ -14,7 +14,7 @@ const Navbar = () => {
         onMouseLeave={() => setIsHovered(false)}
         className={!isToggle ? "light" : ""}
       >
-        home
+        {selectedOption === false ? "home" : "anasayfa"}
       </NavLink>
       <NavLink
         to="/whoami"
