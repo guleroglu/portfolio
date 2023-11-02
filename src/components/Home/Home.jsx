@@ -4,7 +4,7 @@ import { GlobalContext } from "../../Context/GlobalContext";
 import ContactButton from "../ContactButton/ContactButton";
 
 const Home = () => {
-  const { isHovered, isToggle } = useContext(GlobalContext);
+  const { isHovered, isToggle, selectedOption } = useContext(GlobalContext);
 
   const hoveredStyle = isHovered ? { color: "#4ADE80" } : {};
 
@@ -37,11 +37,21 @@ const Home = () => {
         </div>
       </div>
       <div className="home-bottom">
-        <p className={`home-info-bottom ${!isToggle ? "light" : ""}`}>
-          I'm working on becoming an experienced developer in the back-end
-          world. I'm open to learning and improving myself in this profession. I
-          enjoy learning new things and constantly developing myself.
-        </p>
+        {selectedOption === false ? (
+          <p className={`home-info-bottom ${!isToggle ? "light" : ""}`}>
+            I'm working on becoming an experienced developer in the back-end
+            world. I'm open to learning and improving myself in this profession.
+            I enjoy learning new things and constantly developing myself.
+          </p>
+        ) : (
+          <p className={`home-info-bottom ${!isToggle ? "light" : ""}`}>
+            Back-end dünyasında deneyimli bir geliştirici olmak için
+            çalışıyorum. Bu meslekte öğrenmeye ve kendimi geliştirmeye açığım.
+            Yeni şeyler öğrenmekten ve kendimi sürekli
+            geliştirmekten keyif alıyorum.
+          </p>
+        )}
+
         <ContactButton />
       </div>
     </div>
