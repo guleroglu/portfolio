@@ -80,11 +80,12 @@ nav a:hover::after {
 
 @media (max-width: 530px) {
   .navbar {
-    column-gap: 13px;
+    column-gap: 12px;
+    
   }
 
   .navbar a {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   nav a::after {
@@ -102,11 +103,11 @@ nav a:hover::after {
 
 @media (max-width: 300px) {
   .navbar {
-    column-gap: 13px;
+    column-gap: 12px;
   }
 
   .navbar a {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   nav a::after {
@@ -124,11 +125,11 @@ nav a:hover::after {
 
 @media (max-width: 250px) {
   .navbar {
-    column-gap: 13px;
+    column-gap: 12px;
   }
 
   .navbar a {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   nav a::after {
